@@ -1,0 +1,882 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-28T22:05:18.101Z",
+        "line": 16,
+        "name": "check login is refused with Invalid credentiels",
+        "description": "",
+        "id": "feature-to-test-authentification-functionnality;check-login-is-refused-with-invalid-credentiels;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10220188800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4664606300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall321!",
+            "match": {
+              "arguments": [
+                {
+                  "val": "etudiant.nihel.dakhlaoui@uvt.tn",
+                  "offset": 11
+                },
+                {
+                  "val": "Ekaraoncall321!",
+                  "offset": 47
+                }
+              ],
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_enter_login_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 642586700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on eye to show password",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_clicks_on_eye_to_show_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806918200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on remember me",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_clicks_on_remember_me()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 777572800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on valide button",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.clicks_on_valide_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8167118200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Error message displayed",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.Error_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidAuthetification"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T22:05:43.560Z",
+        "line": 29,
+        "name": "check login is successiful with valid credentiels",
+        "description": "",
+        "id": "feature-to-test-authentification-functionnality;check-login-is-successiful-with-valid-credentiels;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9558811800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4742213700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall123!",
+            "match": {
+              "arguments": [
+                {
+                  "val": "etudiant.nihel.dakhlaoui@uvt.tn",
+                  "offset": 11
+                },
+                {
+                  "val": "Ekaraoncall123!",
+                  "offset": 47
+                }
+              ],
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_enter_login_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 780424700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on eye to show password",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_clicks_on_eye_to_show_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 790837100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on remember me",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_clicks_on_remember_me()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763088300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on valide button",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.clicks_on_valide_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8526707600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is redirected to the home page Console",
+            "match": {
+              "location": "StepsDefinitions.AuthentificationSteps_POM.user_is_redirected_to_the_home_page_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ValidAuthetification"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test authentification functionnality",
+    "description": "",
+    "id": "feature-to-test-authentification-functionnality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/1Authentification.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-28T22:06:08.771Z",
+        "line": 6,
+        "name": "check the functioning of the console view through the second workspaces",
+        "description": "",
+        "id": "feature-to-test-console-vue-functionnality;check-the-functioning-of-the-console-view-through-the-second-workspaces",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1575100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on  Console page",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.user_is_on_Console_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7155260500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on the workspace dropdown",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.use_click_on_the_workspace_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5502022600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user choice the second workspace",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.user_choice_the_second_workspace()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203621500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the scenario consoles of the second workspace appear",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.the_scenario_consoles_of_the_second_workspace_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ConsoleSecondWorkspace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T22:06:21.683Z",
+        "line": 13,
+        "name": "check the functioning of the console view through the Third workspaces",
+        "description": "",
+        "id": "feature-to-test-console-vue-functionnality;check-the-functioning-of-the-console-view-through-the-third-workspaces",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on  Console page",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.user_is_on_Console_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7101401800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on the workspace dropdown",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.use_click_on_the_workspace_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5166816800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user choice the third workspace",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.user_choice_the_third_workspace()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102857300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the scenario consoles of the third workspace appear",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.the_scenario_consoles_of_the_third_workspace_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ConsoleThirdWorkspace"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test Console vue functionnality",
+    "description": "",
+    "id": "feature-to-test-console-vue-functionnality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/2Console.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-28T22:06:34.084Z",
+        "line": 7,
+        "name": "Display the incident vue throw Incident Menu",
+        "description": "",
+        "id": "feature-to-test-incident-view-functionnality;display-the-incident-vue-throw-incident-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Application was launched",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.application_was_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4227218400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on the Incident button",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.user_click_on_the_incident_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2819909400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the Incident view display",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.the_incident_view_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IncidentFeature"
+          },
+          {
+            "name": "@Incidnt_Vue"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T22:06:41.171Z",
+        "line": 13,
+        "name": "check the functioning of the Incident view through the second workspaces",
+        "description": "",
+        "id": "feature-to-test-incident-view-functionnality;check-the-functioning-of-the-incident-view-through-the-second-workspaces",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on  Incident page",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.user_is_on_incident_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5087912100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on workspace dropdown",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.user_click_on_the_workspace_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4998733800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user choice the second workspace",
+            "match": {
+              "location": "StepsDefinitions.ConsoleSteps_POM.user_choice_the_second_workspace()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the scenario Incidents of the second workspace appear",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.the_scenario_incidents_of_the_second_workspace_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IncidentFeature"
+          },
+          {
+            "name": "@Incidnt_Second_W�orkspace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T22:06:51.279Z",
+        "line": 20,
+        "name": "Show the closed incident",
+        "description": "",
+        "id": "feature-to-test-incident-view-functionnality;show-the-closed-incident",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Incident view was launched",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.incident_view_was_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7190034700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click on the button to show closed incident",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.user_click_on_the_button_to_show_closed_incident()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5959987300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "closed incidents are displayed",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.closed_incidents_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IncidentFeature"
+          },
+          {
+            "name": "@Show_closed_incident"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T22:07:04.455Z",
+        "line": 26,
+        "name": "Details of incident",
+        "description": "",
+        "id": "feature-to-test-incident-view-functionnality;details-of-incident",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Closed Incident are displayed",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.closed_incident_are_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8190020700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user click on the incident to display the details",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.user_click_on_the_incident_to_display_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2171344400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Open date of incident is displayed",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.open_date_of_incident_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2099900400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "close date of incident is displayed",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.close_date_of_incident_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2132410400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "duration of incident is displayed",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.duration_of_incident_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2108525500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "events triggers is displayed",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.events_triggers_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4203181400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click on show details of test button",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.user_click_on_show_details_of_test_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14609905000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "redirection to navigator view of Ekara",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.redirection_to_navigator_view_of_ekara()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IncidentFeature"
+          },
+          {
+            "name": "@details_incident"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-28T22:07:39.992Z",
+        "line": 37,
+        "name": "Hide the closed incident",
+        "description": "",
+        "id": "feature-to-test-incident-view-functionnality;hide-the-closed-incident",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 577389600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Closed incident was displayed",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.closed_incident_was_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10312190300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user click on the button to hide closed incident",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.user_click_on_the_button_to_hide_closed_incident()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4248093100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "closed incident is hided",
+            "match": {
+              "location": "StepsDefinitions.IncidentSteps_POM.closed_incident_is_hided()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IncidentFeature"
+          },
+          {
+            "name": "@hide_closed_incident"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test Incident view functionnality",
+    "description": "",
+    "id": "feature-to-test-incident-view-functionnality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/3Incident.feature",
+    "tags": [
+      {
+        "name": "@IncidentFeature",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-28T22:07:55.153Z",
+        "line": 6,
+        "name": "check the functioning of the Information view throw Information Menu",
+        "description": "",
+        "id": "feature-to-test-information-view-functionnality;check-the-functioning-of-the-information-view-throw-information-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Application launched",
+            "match": {
+              "location": "StepsDefinitions.InformationSteps_POM.Application_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3488647600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on the Information button",
+            "match": {
+              "location": "StepsDefinitions.InformationSteps_POM.user_click_on_the_Information_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6116276800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on autorise cookies",
+            "match": {
+              "location": "StepsDefinitions.InformationSteps_POM.Click_on_autorise_cookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4342788900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open menu",
+            "match": {
+              "location": "StepsDefinitions.InformationSteps_POM.Open_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2924235300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close menu",
+            "match": {
+              "location": "StepsDefinitions.InformationSteps_POM.Close_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1776975900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "check menu is closed",
+            "match": {
+              "location": "StepsDefinitions.InformationSteps_POM.check_the_menu_Ressources()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Information_Vue"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test Information view functionnality",
+    "description": "",
+    "id": "feature-to-test-information-view-functionnality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/4Information.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-28T22:08:13.830Z",
+        "line": 7,
+        "name": "Deconnect from application throw Deconnect Menu",
+        "description": "",
+        "id": "feature-to-test-deconnection-vue-functionnality;deconnect-from-application-throw-deconnect-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Application is connected",
+            "match": {
+              "location": "StepsDefinitions.DeconnexionSteps_POM.application_is_connected()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4336709600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on the logout button",
+            "match": {
+              "location": "StepsDefinitions.DeconnexionSteps_POM.user_click_on_the_logout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4191046900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Application is Deconnected",
+            "match": {
+              "location": "StepsDefinitions.DeconnexionSteps_POM.Deconnected_Application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeconnexionFeature"
+          },
+          {
+            "name": "@Deconnection_Vue"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test Deconnection vue functionnality",
+    "description": "",
+    "id": "feature-to-test-deconnection-vue-functionnality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Deconnexion.feature",
+    "tags": [
+      {
+        "name": "@DeconnexionFeature",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
