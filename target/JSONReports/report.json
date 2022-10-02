@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-09-28T22:05:18.101Z",
+        "start_timestamp": "2022-10-02T22:45:14.742Z",
         "line": 16,
         "name": "check login is refused with Invalid credentiels",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10220188800,
+              "duration": 10075074600,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 4664606300,
+              "duration": 5180293200,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 642586700,
+              "duration": 645672100,
               "status": "passed"
             },
             "line": 9,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 806918200,
+              "duration": 786312000,
               "status": "passed"
             },
             "line": 10,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 777572800,
+              "duration": 751613100,
               "status": "passed"
             },
             "line": 11,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 8167118200,
+              "duration": 8131746700,
               "status": "passed"
             },
             "line": 12,
@@ -101,7 +101,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-28T22:05:43.560Z",
+        "start_timestamp": "2022-10-02T22:45:40.479Z",
         "line": 29,
         "name": "check login is successiful with valid credentiels",
         "description": "",
@@ -111,7 +111,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9558811800,
+              "duration": 8918527300,
               "status": "passed"
             },
             "line": 20,
@@ -123,7 +123,7 @@
           },
           {
             "result": {
-              "duration": 4742213700,
+              "duration": 5261195700,
               "status": "passed"
             },
             "line": 21,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 780424700,
+              "duration": 663650700,
               "status": "passed"
             },
             "line": 22,
@@ -157,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 790837100,
+              "duration": 748524600,
               "status": "passed"
             },
             "line": 23,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 763088300,
+              "duration": 758570900,
               "status": "passed"
             },
             "line": 24,
@@ -181,7 +181,7 @@
           },
           {
             "result": {
-              "duration": 8526707600,
+              "duration": 8428759500,
               "status": "passed"
             },
             "line": 25,
@@ -210,7 +210,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-09-28T22:06:08.771Z",
+        "start_timestamp": "2022-10-02T22:46:05.269Z",
         "line": 6,
         "name": "check the functioning of the console view through the second workspaces",
         "description": "",
@@ -220,7 +220,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1575100,
               "status": "passed"
             },
             "line": 7,
@@ -232,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 7155260500,
+              "duration": 7100247300,
               "status": "passed"
             },
             "line": 8,
@@ -244,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 5502022600,
+              "duration": 5355742900,
               "status": "passed"
             },
             "line": 9,
@@ -256,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 203621500,
+              "duration": 152740800,
               "status": "passed"
             },
             "line": 10,
@@ -274,7 +273,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-28T22:06:21.683Z",
+        "start_timestamp": "2022-10-02T22:46:17.883Z",
         "line": 13,
         "name": "check the functioning of the console view through the Third workspaces",
         "description": "",
@@ -284,6 +283,7 @@
         "steps": [
           {
             "result": {
+              "duration": 505800,
               "status": "passed"
             },
             "line": 14,
@@ -295,7 +295,7 @@
           },
           {
             "result": {
-              "duration": 7101401800,
+              "duration": 7102557700,
               "status": "passed"
             },
             "line": 15,
@@ -307,7 +307,7 @@
           },
           {
             "result": {
-              "duration": 5166816800,
+              "duration": 5141394400,
               "status": "passed"
             },
             "line": 16,
@@ -319,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 102857300,
+              "duration": 77534000,
               "status": "passed"
             },
             "line": 17,
@@ -348,7 +348,7 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2022-09-28T22:06:34.084Z",
+        "start_timestamp": "2022-10-02T22:46:30.245Z",
         "line": 7,
         "name": "Display the incident vue throw Incident Menu",
         "description": "",
@@ -358,6 +358,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -369,7 +370,7 @@
           },
           {
             "result": {
-              "duration": 4227218400,
+              "duration": 4186602800,
               "status": "passed"
             },
             "line": 9,
@@ -381,7 +382,7 @@
           },
           {
             "result": {
-              "duration": 2819909400,
+              "duration": 2115625100,
               "status": "passed"
             },
             "line": 10,
@@ -402,7 +403,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-28T22:06:41.171Z",
+        "start_timestamp": "2022-10-02T22:46:36.562Z",
         "line": 13,
         "name": "check the functioning of the Incident view through the second workspaces",
         "description": "",
@@ -412,6 +413,7 @@
         "steps": [
           {
             "result": {
+              "duration": 425900,
               "status": "passed"
             },
             "line": 14,
@@ -423,7 +425,7 @@
           },
           {
             "result": {
-              "duration": 5087912100,
+              "duration": 5218730300,
               "status": "passed"
             },
             "line": 15,
@@ -435,7 +437,7 @@
           },
           {
             "result": {
-              "duration": 4998733800,
+              "duration": 5134862100,
               "status": "passed"
             },
             "line": 16,
@@ -447,7 +449,6 @@
           },
           {
             "result": {
-              "duration": 521300,
               "status": "passed"
             },
             "line": 17,
@@ -468,7 +469,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-28T22:06:51.279Z",
+        "start_timestamp": "2022-10-02T22:46:46.935Z",
         "line": 20,
         "name": "Show the closed incident",
         "description": "",
@@ -489,7 +490,7 @@
           },
           {
             "result": {
-              "duration": 7190034700,
+              "duration": 6675756900,
               "status": "passed"
             },
             "line": 22,
@@ -501,7 +502,7 @@
           },
           {
             "result": {
-              "duration": 5959987300,
+              "duration": 5764999500,
               "status": "passed"
             },
             "line": 23,
@@ -522,7 +523,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-28T22:07:04.455Z",
+        "start_timestamp": "2022-10-02T22:46:59.387Z",
         "line": 26,
         "name": "Details of incident",
         "description": "",
@@ -532,6 +533,7 @@
         "steps": [
           {
             "result": {
+              "duration": 998700,
               "status": "passed"
             },
             "line": 27,
@@ -543,7 +545,7 @@
           },
           {
             "result": {
-              "duration": 8190020700,
+              "duration": 7883388500,
               "status": "passed"
             },
             "line": 28,
@@ -555,7 +557,7 @@
           },
           {
             "result": {
-              "duration": 2171344400,
+              "duration": 2167372600,
               "status": "passed"
             },
             "line": 29,
@@ -567,7 +569,7 @@
           },
           {
             "result": {
-              "duration": 2099900400,
+              "duration": 2149780900,
               "status": "passed"
             },
             "line": 30,
@@ -579,7 +581,7 @@
           },
           {
             "result": {
-              "duration": 2132410400,
+              "duration": 2118809700,
               "status": "passed"
             },
             "line": 31,
@@ -591,7 +593,7 @@
           },
           {
             "result": {
-              "duration": 2108525500,
+              "duration": 2126548100,
               "status": "passed"
             },
             "line": 32,
@@ -603,7 +605,7 @@
           },
           {
             "result": {
-              "duration": 4203181400,
+              "duration": 4174254600,
               "status": "passed"
             },
             "line": 33,
@@ -615,7 +617,7 @@
           },
           {
             "result": {
-              "duration": 14609905000,
+              "duration": 14401084000,
               "status": "passed"
             },
             "line": 34,
@@ -636,7 +638,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-28T22:07:39.992Z",
+        "start_timestamp": "2022-10-02T22:47:34.428Z",
         "line": 37,
         "name": "Hide the closed incident",
         "description": "",
@@ -646,7 +648,7 @@
         "steps": [
           {
             "result": {
-              "duration": 577389600,
+              "duration": 352288700,
               "status": "passed"
             },
             "line": 38,
@@ -658,7 +660,7 @@
           },
           {
             "result": {
-              "duration": 10312190300,
+              "duration": 10200710200,
               "status": "passed"
             },
             "line": 39,
@@ -670,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 4248093100,
+              "duration": 4123449100,
               "status": "passed"
             },
             "line": 40,
@@ -711,7 +713,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-09-28T22:07:55.153Z",
+        "start_timestamp": "2022-10-02T22:47:49.116Z",
         "line": 6,
         "name": "check the functioning of the Information view throw Information Menu",
         "description": "",
@@ -732,7 +734,7 @@
           },
           {
             "result": {
-              "duration": 3488647600,
+              "duration": 3208140500,
               "status": "passed"
             },
             "line": 8,
@@ -744,8 +746,9 @@
           },
           {
             "result": {
-              "duration": 6116276800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.5.0\u0027, revision: \u0027fe167b119a\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [1f19f777-45bf-4bfa-be52-331a3d302350, findElement {using\u003dxpath, value\u003d/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[3]/android.app.Dialog/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.Button}]\nCapabilities {appium:app: C:\\Users\\Nihel\\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\\Users\\Nihel\\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nSession ID: 1f19f777-45bf-4bfa-be52-331a3d302350\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat pages.InformationPage.clickautorise(InformationPage.java:34)\r\n\tat StepsDefinitions.InformationSteps_POM.Click_on_autorise_cookies(InformationSteps_POM.java:37)\r\n\tat ✽.Click on autorise cookies(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/4Information.feature:9)\r\n",
+              "duration": 5504960300,
+              "status": "failed"
             },
             "line": 9,
             "name": "Click on autorise cookies",
@@ -756,8 +759,8 @@
           },
           {
             "result": {
-              "duration": 4342788900,
-              "status": "passed"
+              "duration": 938500,
+              "status": "skipped"
             },
             "line": 10,
             "name": "Open menu",
@@ -768,8 +771,7 @@
           },
           {
             "result": {
-              "duration": 2924235300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "Close menu",
@@ -780,8 +782,7 @@
           },
           {
             "result": {
-              "duration": 1776975900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "check menu is closed",
@@ -809,7 +810,7 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2022-09-28T22:08:13.830Z",
+        "start_timestamp": "2022-10-02T22:47:57.877Z",
         "line": 7,
         "name": "Deconnect from application throw Deconnect Menu",
         "description": "",
@@ -830,7 +831,7 @@
           },
           {
             "result": {
-              "duration": 4336709600,
+              "duration": 4200578900,
               "status": "passed"
             },
             "line": 9,
@@ -842,7 +843,7 @@
           },
           {
             "result": {
-              "duration": 4191046900,
+              "duration": 4142241100,
               "status": "passed"
             },
             "line": 10,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="184.533">
-    <testcase classname="feature to test authentification functionnality" name="check login is refused with Invalid credentiels" time="25.41">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="171.751">
+    <testcase classname="feature to test authentification functionnality" name="check login is refused with Invalid credentiels" time="25.716">
         <system-out>
             <![CDATA[Given user is on login page.................................................passed
 When user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall321!.........passed
@@ -11,7 +11,7 @@ Then Error message displayed................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test authentification functionnality" name="check login is successiful with valid credentiels" time="25.184">
+    <testcase classname="feature to test authentification functionnality" name="check login is successiful with valid credentiels" time="24.785">
         <system-out>
             <![CDATA[Given user is on login page.................................................passed
 When user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall123!.........passed
@@ -22,7 +22,7 @@ Then user is redirected to the home page Console............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the second workspaces" time="12.888">
+    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the second workspaces" time="12.61">
         <system-out>
             <![CDATA[Given user is on  Console page..............................................passed
 When user click on the workspace dropdown...................................passed
@@ -31,7 +31,7 @@ Then the scenario consoles of the second workspace appear...................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the Third workspaces" time="12.381">
+    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the Third workspaces" time="12.339">
         <system-out>
             <![CDATA[Given user is on  Console page..............................................passed
 When user click on the workspace dropdown...................................passed
@@ -40,7 +40,7 @@ Then the scenario consoles of the third workspace appear....................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Display the incident vue throw Incident Menu" time="7.062">
+    <testcase classname="feature to test Incident view functionnality" name="Display the incident vue throw Incident Menu" time="6.314">
         <system-out>
             <![CDATA[Given Application was launched..............................................passed
 When user click on the Incident button......................................passed
@@ -48,7 +48,7 @@ Then the Incident view display..............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="check the functioning of the Incident view through the second workspaces" time="10.094">
+    <testcase classname="feature to test Incident view functionnality" name="check the functioning of the Incident view through the second workspaces" time="10.364">
         <system-out>
             <![CDATA[Given user is on  Incident page.............................................passed
 When user click on workspace dropdown.......................................passed
@@ -57,7 +57,7 @@ Then the scenario Incidents of the second workspace appear..................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Show the closed incident" time="13.153">
+    <testcase classname="feature to test Incident view functionnality" name="Show the closed incident" time="12.441">
         <system-out>
             <![CDATA[Given Incident view was launched............................................passed
 When user click on the button to show closed incident.......................passed
@@ -65,7 +65,7 @@ Then closed incidents are displayed.........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Details of incident" time="35.525">
+    <testcase classname="feature to test Incident view functionnality" name="Details of incident" time="35.031">
         <system-out>
             <![CDATA[Given Closed Incident are displayed.........................................passed
 When user click on the incident to display the details......................passed
@@ -78,7 +78,7 @@ Then redirection to navigator view of Ekara.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Hide the closed incident" time="15.144">
+    <testcase classname="feature to test Incident view functionnality" name="Hide the closed incident" time="14.678">
         <system-out>
             <![CDATA[Given Closed incident was displayed.........................................passed
 When user click on the button to hide closed incident.......................passed
@@ -86,18 +86,45 @@ Then closed incident is hided...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="feature to test Information view functionnality" name="check the functioning of the Information view throw Information Menu" time="18.664">
-        <system-out>
+    <testcase classname="feature to test Information view functionnality" name="check the functioning of the Information view throw Information Menu" time="8.727">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [1f19f777-45bf-4bfa-be52-331a3d302350, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[3]/android.app.Dialog/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.Button}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 1f19f777-45bf-4bfa-be52-331a3d302350" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given Application launched..................................................passed
 When user click on the Information button...................................passed
-And Click on autorise cookies...............................................passed
-And Open menu...............................................................passed
-And Close menu..............................................................passed
-Then check menu is closed...................................................passed
+And Click on autorise cookies...............................................failed
+And Open menu...............................................................skipped
+And Close menu..............................................................skipped
+Then check menu is closed...................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1f19f777-45bf-4bfa-be52-331a3d302350, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[3]/android.app.Dialog/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.Button}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 1f19f777-45bf-4bfa-be52-331a3d302350
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.InformationPage.clickautorise(InformationPage.java:34)
+	at StepsDefinitions.InformationSteps_POM.Click_on_autorise_cookies(InformationSteps_POM.java:37)
+	at ✽.Click on autorise cookies(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/4Information.feature:9)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="feature to test Deconnection vue functionnality" name="Deconnect from application throw Deconnect Menu" time="8.539">
+    <testcase classname="feature to test Deconnection vue functionnality" name="Deconnect from application throw Deconnect Menu" time="8.348">
         <system-out>
             <![CDATA[Given Application is connected..............................................passed
 When user click on the logout button........................................passed
