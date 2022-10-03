@@ -3,7 +3,7 @@
 @DeconnexionFeature
 Feature: feature to test Deconnection vue functionnality
 
-  @Deconnection_Vue
+  @Deconnection_View
   Scenario: Deconnect from application throw Deconnect Menu
     Given Application is connected
     When user click on the logout button

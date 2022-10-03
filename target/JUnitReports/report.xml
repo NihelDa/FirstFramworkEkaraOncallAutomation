@@ -1,99 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="171.751">
-    <testcase classname="feature to test authentification functionnality" name="check login is refused with Invalid credentiels" time="25.716">
-        <system-out>
+<testsuite errors="0" failures="11" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="82.811">
+    <testcase classname="feature to test authentification functionnality" name="check login is refused with Invalid credentiels" time="13.603">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [a7713dc1-7d33-4891-adff-a2faaaef4893, findElement {using=id, value=com.iplabel.ekaraoncall:id/editLoginekara}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: a7713dc1-7d33-4891-adff-a2faaaef4893" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given user is on login page.................................................passed
-When user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall321!.........passed
-And user clicks on eye to show password.....................................passed
-And user clicks on remember me..............................................passed
-And user clicks on valide button............................................passed
-Then Error message displayed................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test authentification functionnality" name="check login is successiful with valid credentiels" time="24.785">
-        <system-out>
-            <![CDATA[Given user is on login page.................................................passed
-When user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall123!.........passed
-And user clicks on eye to show password.....................................passed
-And user clicks on remember me..............................................passed
-And user clicks on valide button............................................passed
-Then user is redirected to the home page Console............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the second workspaces" time="12.61">
-        <system-out>
-            <![CDATA[Given user is on  Console page..............................................passed
-When user click on the workspace dropdown...................................passed
-And user choice the second workspace........................................passed
-Then the scenario consoles of the second workspace appear...................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the Third workspaces" time="12.339">
-        <system-out>
-            <![CDATA[Given user is on  Console page..............................................passed
-When user click on the workspace dropdown...................................passed
-And user choice the third workspace.........................................passed
-Then the scenario consoles of the third workspace appear....................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Display the incident vue throw Incident Menu" time="6.314">
-        <system-out>
-            <![CDATA[Given Application was launched..............................................passed
-When user click on the Incident button......................................passed
-Then the Incident view display..............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="check the functioning of the Incident view through the second workspaces" time="10.364">
-        <system-out>
-            <![CDATA[Given user is on  Incident page.............................................passed
-When user click on workspace dropdown.......................................passed
-And user choice the second workspace........................................passed
-Then the scenario Incidents of the second workspace appear..................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Show the closed incident" time="12.441">
-        <system-out>
-            <![CDATA[Given Incident view was launched............................................passed
-When user click on the button to show closed incident.......................passed
-Then closed incidents are displayed.........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Details of incident" time="35.031">
-        <system-out>
-            <![CDATA[Given Closed Incident are displayed.........................................passed
-When user click on the incident to display the details......................passed
-And Open date of incident is displayed......................................passed
-And close date of incident is displayed.....................................passed
-And duration of incident is displayed.......................................passed
-And events triggers is displayed............................................passed
-And user click on show details of test button...............................passed
-Then redirection to navigator view of Ekara.................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Incident view functionnality" name="Hide the closed incident" time="14.678">
-        <system-out>
-            <![CDATA[Given Closed incident was displayed.........................................passed
-When user click on the button to hide closed incident.......................passed
-Then closed incident is hided...............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="feature to test Information view functionnality" name="check the functioning of the Information view throw Information Menu" time="8.727">
-        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [1f19f777-45bf-4bfa-be52-331a3d302350, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[3]/android.app.Dialog/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.Button}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 1f19f777-45bf-4bfa-be52-331a3d302350" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given Application launched..................................................passed
-When user click on the Information button...................................passed
-And Click on autorise cookies...............................................failed
-And Open menu...............................................................skipped
-And Close menu..............................................................skipped
-Then check menu is closed...................................................skipped
+When user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall321!.........failed
+And user clicks on eye to show password.....................................skipped
+And user clicks on remember me..............................................skipped
+And user clicks on valide button............................................skipped
+Then Error message displayed................................................skipped
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -101,9 +15,83 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.5.0', revision: 'fe167b119a'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [1f19f777-45bf-4bfa-be52-331a3d302350, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[3]/android.app.Dialog/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.Button}]
+Command: [a7713dc1-7d33-4891-adff-a2faaaef4893, findElement {using=id, value=com.iplabel.ekaraoncall:id/editLoginekara}]
 Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 1f19f777-45bf-4bfa-be52-331a3d302350
+Session ID: a7713dc1-7d33-4891-adff-a2faaaef4893
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.AuthentificationPage.enterLogin(AuthentificationPage.java:22)
+	at StepsDefinitions.AuthentificationSteps_POM.user_enter_login_and_password(AuthentificationSteps_POM.java:32)
+	at ✽.user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall321!(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/1Authentification.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test authentification functionnality" name="check login is successiful with valid credentiels" time="11.895">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/editLoginekara}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given user is on login page.................................................passed
+When user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall123!.........failed
+And user clicks on eye to show password.....................................skipped
+And user clicks on remember me..............................................skipped
+And user clicks on valide button............................................skipped
+Then user is redirected to the home page Console............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/editLoginekara}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.AuthentificationPage.enterLogin(AuthentificationPage.java:22)
+	at StepsDefinitions.AuthentificationSteps_POM.user_enter_login_and_password(AuthentificationSteps_POM.java:32)
+	at ✽.user enter etudiant.nihel.dakhlaoui@uvt.tn and Ekaraoncall123!(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/1Authentification.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the second workspaces" time="8.335">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/spinner04}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given user is on  Console page..............................................passed
+When user click on the workspace dropdown...................................failed
+And user choice the second workspace........................................skipped
+Then the scenario consoles of the second workspace appear...................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/spinner04}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -118,18 +106,300 @@ Session ID: 1f19f777-45bf-4bfa-be52-331a3d302350
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at pages.InformationPage.clickautorise(InformationPage.java:34)
-	at StepsDefinitions.InformationSteps_POM.Click_on_autorise_cookies(InformationSteps_POM.java:37)
-	at ✽.Click on autorise cookies(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/4Information.feature:9)
+	at pages.ConsolePage.ClickDropdown(ConsolePage.java:21)
+	at StepsDefinitions.ConsoleSteps_POM.use_click_on_the_workspace_dropdown(ConsoleSteps_POM.java:30)
+	at ✽.user click on the workspace dropdown(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/2Console.feature:8)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="feature to test Deconnection vue functionnality" name="Deconnect from application throw Deconnect Menu" time="8.348">
-        <system-out>
-            <![CDATA[Given Application is connected..............................................passed
-When user click on the logout button........................................passed
-Then Application is Deconnected.............................................passed
+    <testcase classname="feature to test Console vue functionnality" name="check the functioning of the console view through the Third workspaces" time="8.405">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/spinner04}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given user is on  Console page..............................................passed
+When user click on the workspace dropdown...................................failed
+And user choice the third workspace.........................................skipped
+Then the scenario consoles of the third workspace appear....................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/spinner04}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.ConsolePage.ClickDropdown(ConsolePage.java:21)
+	at StepsDefinitions.ConsoleSteps_POM.use_click_on_the_workspace_dropdown(ConsoleSteps_POM.java:30)
+	at ✽.user click on the workspace dropdown(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/2Console.feature:15)
 ]]>
-        </system-out>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Incident view functionnality" name="Display the incident vue throw Incident Menu" time="4.38">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/incidents}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Application was launched..............................................passed
+When user click on the Incident button......................................failed
+Then the Incident view display..............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/incidents}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.IncidentPage.ClickViewIncident(IncidentPage.java:49)
+	at StepsDefinitions.IncidentSteps_POM.user_click_on_the_incident_button(IncidentSteps_POM.java:28)
+	at ✽.user click on the Incident button(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/3Incident.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Incident view functionnality" name="check the functioning of the Incident view through the second workspaces" time="4.466">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/spinner04}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given user is on  Incident page.............................................passed
+When user click on workspace dropdown.......................................failed
+And user choice the second workspace........................................skipped
+Then the scenario Incidents of the second workspace appear..................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/spinner04}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.IncidentPage.ClickDropdown(IncidentPage.java:129)
+	at StepsDefinitions.IncidentSteps_POM.user_click_on_the_workspace_dropdown(IncidentSteps_POM.java:52)
+	at ✽.user click on workspace dropdown(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/3Incident.feature:15)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Incident view functionnality" name="Show the closed incident" time="6.341">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/buttonShowAlertEkara}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Incident view was launched............................................passed
+When user click on the button to show closed incident.......................failed
+Then closed incidents are displayed.........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/buttonShowAlertEkara}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.IncidentPage.ClickshowIncident(IncidentPage.java:58)
+	at StepsDefinitions.IncidentSteps_POM.user_click_on_the_button_to_show_closed_incident(IncidentSteps_POM.java:81)
+	at ✽.user click on the button to show closed incident(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/3Incident.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Incident view functionnality" name="Details of incident" time="6.97">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/card_linear}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Closed Incident are displayed.........................................passed
+When user click on the incident to display the details......................failed
+And Open date of incident is displayed......................................skipped
+And close date of incident is displayed.....................................skipped
+And duration of incident is displayed.......................................skipped
+And events triggers is displayed............................................skipped
+And user click on show details of test button...............................skipped
+Then redirection to navigator view of Ekara.................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/card_linear}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.IncidentPage.ClickIncident(IncidentPage.java:82)
+	at StepsDefinitions.IncidentSteps_POM.user_click_on_the_incident_to_display_the_details(IncidentSteps_POM.java:107)
+	at ✽.user click on the incident to display the details(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/3Incident.feature:28)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Incident view functionnality" name="Hide the closed incident" time="10.364">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/buttonShowAlertEkara}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Closed incident was displayed.........................................passed
+When user click on the button to hide closed incident.......................failed
+Then closed incident is hided...............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/buttonShowAlertEkara}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.IncidentPage.ClickhideIncident(IncidentPage.java:120)
+	at StepsDefinitions.IncidentSteps_POM.user_click_on_the_button_to_hide_closed_incident(IncidentSteps_POM.java:214)
+	at ✽.user click on the button to hide closed incident(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/3Incident.feature:39)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Information view functionnality" name="check the functioning of the Information view throw Information Menu" time="3.316">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/info}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Application launched..................................................passed
+When user click on the Information button...................................failed
+And Click on autorise cookies...............................................skipped
+And Open menu...............................................................skipped
+And Close menu..............................................................skipped
+Then check menu is closed...................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/info}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.InformationPage.ClickbtnInfo(InformationPage.java:30)
+	at StepsDefinitions.InformationSteps_POM.user_click_on_the_Information_button(InformationSteps_POM.java:28)
+	at ✽.user click on the Information button(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/4Information.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="feature to test Deconnection vue functionnality" name="Deconnect from application throw Deconnect Menu" time="4.225">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/deconnect}]&#10;Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Application is connected..............................................passed
+When user click on the logout button........................................failed
+Then Application is Deconnected.............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e62f7e98-6b9f-4ff0-8d39-8aeded2a1551, findElement {using=id, value=com.iplabel.ekaraoncall:id/deconnect}]
+Capabilities {appium:app: C:\Users\Nihel\eclipse-work..., appium:appPackage: com.iplabel.ekaraoncall, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Nihel\eclipse-work..., deviceName: Galaxy A50, newCommandTimeout: 180, platformName: android, platformVersion: 11, udid: R58M33X6VHV}, appium:deviceApiLevel: 30, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A505FN, appium:deviceName: R58M33X6VHV, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58M33X6VHV, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:udid: R58M33X6VHV, appium:viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e62f7e98-6b9f-4ff0-8d39-8aeded2a1551
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.DeconnexionPage.Clickbtnlogout(DeconnexionPage.java:16)
+	at StepsDefinitions.DeconnexionSteps_POM.user_click_on_the_logout_button(DeconnexionSteps_POM.java:27)
+	at ✽.user click on the logout button(file:///C:/Users/Nihel/eclipse-workspace/AutomationEkaraOnCallProject/src/test/resources/Features/5Deconnexion.feature:9)
+]]>
+        </failure>
     </testcase>
 </testsuite>

@@ -3,13 +3,13 @@
 @IncidentFeature
 Feature: feature to test Incident view functionnality
 
-  @Incidnt_Vue
+  @Incidnt_View
   Scenario: Display the incident vue throw Incident Menu
     Given Application was launched
     When user click on the Incident button
     Then the Incident view display
 
-  @Incidnt_Second_Wùorkspace
+  @Incidnt_Second_Workspace
   Scenario: check the functioning of the Incident view through the second workspaces
     Given user is on  Incident page
     When user click on workspace dropdown

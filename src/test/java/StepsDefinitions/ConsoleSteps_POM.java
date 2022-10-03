@@ -26,7 +26,7 @@ public class ConsoleSteps_POM extends BaseClass{
 		/*Object*/
 		ConsolePage Console = new ConsolePage(driver);
 		/* click on dropdown */
-		Thread.sleep(6000);
+		Thread.sleep(8000);
 		Console.ClickDropdown();
 
 	}

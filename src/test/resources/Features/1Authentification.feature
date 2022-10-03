@@ -2,7 +2,7 @@
 #Description: Test of authentification Functionnality
 Feature: feature to test authentification functionnality
 
-  @InvalidAuthetification
+  @InvalidAuthentification
   Scenario Outline: check login is refused with Invalid credentiels
     Given user is on login page
     When user enter <login> and <password>
@@ -15,7 +15,7 @@ Feature: feature to test authentification functionnality
       | login                           | password        |
       | etudiant.nihel.dakhlaoui@uvt.tn | Ekaraoncall321! |
 
-  @ValidAuthetification
+  @ValidAuthentification
   Scenario Outline: check login is successiful with valid credentiels
     Given user is on login page
     When user enter <login> and <password>

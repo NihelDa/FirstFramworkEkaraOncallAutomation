@@ -2,7 +2,7 @@
 #Description: Test of Information Functionnality
 Feature: feature to test Information view functionnality
 
-  @Information_Vue
+  @Information_View
   Scenario: check the functioning of the Information view throw Information Menu
     Given Application launched
     When user click on the Information button

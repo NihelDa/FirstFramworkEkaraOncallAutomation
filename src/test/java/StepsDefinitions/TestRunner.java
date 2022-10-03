@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 
 				glue={"StepsDefinitions"},tags="",
 				monochrome= true,
-				plugin = { "pretty","json:target/cucumber-reports",
+				plugin = { "pretty","html:target/cucumber-reports",
 						"junit:target/JUnitReports/report.xml",
 						"json:target/JSONReports/report.json",
 						"html:target/HtmlReports/reports",
