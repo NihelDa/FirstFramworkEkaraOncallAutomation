@@ -178,10 +178,12 @@ public class IncidentSteps_POM extends BaseClass {
 		System.out.println("Inside Step - user click on the button to share incident");
 		IncidentPage Incident = new IncidentPage(driver);
 		/* Valid that the Incident page is displayed */
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		Incident.ClickshareIncident();
 		/* user click on autorise acess to file */
+		Thread.sleep(4000);
 		Incident.Clickautorise();
+		Thread.sleep(4000);
 		Incident.ClickshareIncident();
 
 	}
