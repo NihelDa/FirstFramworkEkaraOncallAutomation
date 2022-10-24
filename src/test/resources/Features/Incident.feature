@@ -32,7 +32,13 @@ Feature: feature to test Incident view functionnality
     And events triggers is displayed
     And user click on show details of test button
     Then redirection to navigator view of Ekara
-
+  
+  @share_incident
+  Scenario: Share the incident
+    Given Incident was displayed
+    When user click on the button to share incident
+    Then Different methode to share are displayed
+  
   @hide_closed_incident
   Scenario: Hide the closed incident
     Given Closed incident was displayed
