@@ -33,7 +33,7 @@ public class InformationSteps_POM extends BaseClass {
 		System.out.println("Inside Step - Click on autorise cookies ");
 		InformationPage Info = new InformationPage(driver);
 		/* click on autorise button */
-		Thread.sleep(8000);
+		Thread.sleep(10000);
 		Info.clickautorise();
 	}
 
